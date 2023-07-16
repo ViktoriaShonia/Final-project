@@ -48,9 +48,19 @@
 
 
         <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook'></i></box-icon></a>
-            <a href="#"><i class='bx bxl-instagram'></i></box-icon></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
+           
+            <a href="https://www.facebook.com/photomaxer/about" target="_blank">
+                <i class='bx bxl-facebook'></i>
+              </a>
+              
+              <a href="https://www.instagram.com/photomaxer/" target="_blank">
+                <i class='bx bxl-instagram'></i>
+              </a>
+              
+              <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADK8oYoBCPR5y8mGRUrNVmNegQSXqz1Z6TQ&keywords=maxime%20baqradze&origin=RICH_QUERY_SUGGESTION&position=0&searchId=e3502564-2a61-4fb6-b20c-fbb883734388&sid=KQP" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+              
         </div>
 
         <div class="home-imgHover"> </div>
@@ -84,49 +94,50 @@
 
         <div class="row">
             <div class="column">
-                <img src="pic0.jpeg">
-                <img src="pic1.jpeg">
-                <img src="pic10.jpeg">
-                <img src="pic11.jpeg">
-                <img src="pic2.jpeg">
-                <img src="pic3.jpeg">
-                <img src="pic4.jpeg">
-                <img src="pic38.jpeg">
+              <img src="pic0.jpeg" onclick="enlargeImage(this)">
+              <img src="pic1.jpeg" onclick="enlargeImage(this)">
+              <img src="pic10.jpeg" onclick="enlargeImage(this)">
+              <img src="pic11.jpeg" onclick="enlargeImage(this)">
+              <img src="pic2.jpeg" onclick="enlargeImage(this)">
+              <img src="pic3.jpeg" onclick="enlargeImage(this)">
+              <img src="pic4.jpeg" onclick="enlargeImage(this)">
+              <img src="pic38.jpeg" onclick="enlargeImage(this)">
             </div>
             <div class="column">
-                <img src="pic5.jpeg">
-                <img src="pic6.jpeg">
-                <img src="pic7.jpeg">
-                <img src="pic8.jpeg">
-                <img src="pic9.jpeg">
-                <img src="pic21.jpeg">
-                <img src="pic39.jpeg">
-                <img src="pic40.jpeg">
+              <img src="pic5.jpeg" onclick="enlargeImage(this)">
+              <img src="pic6.jpeg" onclick="enlargeImage(this)">
+              <img src="pic7.jpeg" onclick="enlargeImage(this)">
+              <img src="pic8.jpeg" onclick="enlargeImage(this)">
+              <img src="pic9.jpeg" onclick="enlargeImage(this)">
+              <img src="pic21.jpeg" onclick="enlargeImage(this)">
+              <img src="pic39.jpeg" onclick="enlargeImage(this)">
+              <img src="pic40.jpeg" onclick="enlargeImage(this)">
             </div>
             <div class="column">
-                <img src="pic22.jpeg">
-                <img src="pic23.jpeg">
-                <img src="pic24.jpeg">
-                <img src="pic25.jpeg">
-                <img src="pic26.jpeg">
-                <img src="pic27.jpeg">
-                <img src="pic34.jpeg">
-                <img src="pic42.jpeg">
+              <img src="pic22.jpeg" onclick="enlargeImage(this)">
+              <img src="pic23.jpeg" onclick="enlargeImage(this)">
+              <img src="pic24.jpeg" onclick="enlargeImage(this)">
+              <img src="pic25.jpeg" onclick="enlargeImage(this)">
+              <img src="pic26.jpeg" onclick="enlargeImage(this)">
+              <img src="pic27.jpeg" onclick="enlargeImage(this)">
+              <img src="pic34.jpeg" onclick="enlargeImage(this)">
+              <img src="pic42.jpeg" onclick="enlargeImage(this)">
             </div>
             <div class="column">
-                <img src="pic28.jpeg">
-                <img src="pic29.jpeg">
-                <img src="pic30.jpeg">
-                <img src="pic31.jpeg">
-                <img src="pic32.jpeg">
-                <img src="pic33.jpeg">
-                <img src="pic36.jpeg">
-                <img src="pic35.jpeg">
-                <img src="pic37.jpeg">
-                <img src="pic41.jpeg">
-
+              <img src="pic28.jpeg" onclick="enlargeImage(this)">
+              <img src="pic29.jpeg" onclick="enlargeImage(this)">
+              <img src="pic30.jpeg" onclick="enlargeImage(this)">
+              <img src="pic31.jpeg" onclick="enlargeImage(this)">
+              <img src="pic32.jpeg" onclick="enlargeImage(this)">
+              <img src="pic33.jpeg" onclick="enlargeImage(this)">
+              <img src="pic36.jpeg" onclick="enlargeImage(this)">
+              <img src="pic35.jpeg" onclick="enlargeImage(this)">
+              <img src="pic37.jpeg" onclick="enlargeImage(this)">
+              <img src="pic41.jpeg" onclick="enlargeImage(this)">
             </div>
-        </div>
+          </div>
+          <div id="enlarged-container" onclick="cancelEnlarge()"></div>
+          
     </section>
 
 
@@ -282,6 +293,8 @@
                 </div>
 
             </div>
+            
+    
 
         </section>
 
@@ -293,7 +306,10 @@
 
         <script src="script.js"> </script>
 
-
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.320610573863!2d44.7642071!3d41.7218575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d6a8a75a9a1%3A0xfb2605a6090aee0c!2z4YOX4YOR4YOX4YOQ4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa4YOY4YOX4YOX4YOY4YOX4YOa!5e0!3m2!1sen!2sge!4v1626868527486!5m2!1sen!2sge" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          
 
 </body>
 
